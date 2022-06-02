@@ -631,8 +631,8 @@ img {
   position: relative;
   overflow: hidden;
 }
-.project-link:hover.project-link-text,
-.project-link:focus.project-link-text {
+.project-link:hover .project-link-text,
+.project-link:focus .project-link-text {
   transform: translateY(-100%);
   transition: transform var(--transition-duration)
     var(--transition-timing-function);
