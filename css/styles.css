@@ -109,7 +109,6 @@ img {
 .header-link:hover,
 .header-link:focus {
   color: var(--accent-color);
-  transition: color var(--transition-duration) var(--transition-timing-function);
 }
 .header-nav {
   display: flex;
@@ -151,13 +150,11 @@ img {
 }
 .header-tel-link:hover,
 .header-tel-link:focus {
-  transition: color var(--transition-duration) var(--transition-timing-function);
   color: var(--accent-color);
 }
 
 .header-mail-link:hover,
 .header-mail-link:focus {
-  transition: color var(--transition-duration) var(--transition-timing-function);
   color: var(--accent-color);
 }
 .link.active {
@@ -189,12 +186,10 @@ img {
 }
 .header-mail-link:focus .header-mail-icon,
 .header-mail-link:hover .header-mail-icon {
-  transition: fill var(--transition-duration) var(--transition-timing-function);
   fill: var(--accent-color);
 }
 .header-tel-link:focus .header-tel-icon,
 .header-tel-link:hover .header-tel-icon {
-  transition: fill var(--transition-duration) var(--transition-timing-function);
   fill: var(--accent-color);
 }
 /* ------------------Hero--------------------*/
@@ -247,8 +242,6 @@ img {
 }
 .hero-btn-text:hover,
 .hero-btn-text:focus {
-  transition: background-color var(--transition-duration)
-    var(--transition-timing-function);
   background-color: #188ce8;
 }
 /* ------------------Preference---------------*/
@@ -378,14 +371,10 @@ img {
 }
 .social-list-link:hover,
 .social-list-link:focus {
-  transition: background-color var(--transition-duration)
-    var(--transition-timing-function);
   background-color: var(--accent-color);
 }
 .social-list-link:hover .social-link-icon,
 .social-list-link:focus .social-link-icon {
-  transition: background-color var(--transition-duration)
-    var(--transition-timing-function);
   fill: var(--main-title-color);
 }
 .social-link-icon {
@@ -422,13 +411,10 @@ img {
 }
 .client:hover,
 .client:focus {
-  transition: border-color var(--transition-duration)
-    var(--transition-timing-function);
   border-color: var(--accent-color);
 }
 .client:hover .clients-icon,
 .client:focus .clients-icon {
-  transition: fill var(--transition-duration) var(--transition-timing-function);
   fill: var(--accent-color);
 }
 
@@ -475,7 +461,6 @@ img {
 }
 .adress-item:hover,
 .adress-item:focus {
-  transition: color var(--transition-duration) var(--transition-timing-function);
   color: #ffffff;
 }
 .adress {
@@ -517,8 +502,6 @@ img {
 }
 .footer-social-link:hover,
 .footer-social-link:focus {
-  transition: background-color var(--transition-duration)
-    var(--transition-timing-function);
   background-color: var(--accent-color);
 }
 
@@ -594,10 +577,6 @@ img {
 }
 .filters-btn:hover,
 .filters-btn:focus {
-  transition: color var(--transition-duration) var(--transition-timing-function),
-    background-color var(--transition-duration)
-      var(--transition-timing-function),
-    box-shadow var(--transition-duration) var(--transition-timing-function);
   color: #ffffff;
   background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
