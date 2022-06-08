@@ -378,7 +378,7 @@ img {
   fill: var(--main-title-color);
 }
 .social-link-icon {
-  transition: background-color var(--transition-duration)
+  transition: fill var(--transition-duration)
     var(--transition-timing-function);
   fill: #afb1b8;
 }
@@ -521,6 +521,7 @@ img {
   bottom: 0%;
   right: 0%;
   background-color: rgba(0, 0, 0, 0.2);
+  transition: opacity var(--transition-duration) var(--transition-timing-function), visibility var(--transition-duration) var(--transition-timing-function);
 }
 .modal {
   position: absolute;
@@ -627,8 +628,6 @@ img {
 }
 .project-link:hover,
 .project-link:focus {
-  transition: box-shadow var(--transition-duration)
-    var(--transition-timing-function);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
